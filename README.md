@@ -98,7 +98,7 @@ console.log(gordon); // {name: 'gordon'}
 
 ### Case 4: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
 
-// bind is a method on functions and returns a copy of the function where 'this' is set to the first argument passed into .bind().
+.bind() is a method on functions and returns a copy of the function where 'this' is set to the first argument passed into .bind().
 ```javascript
 function logThis() {
   console.log(this);
